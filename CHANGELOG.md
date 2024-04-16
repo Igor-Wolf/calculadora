@@ -2,7 +2,7 @@
 
 ## 💡 Features Added
 
-- Jogo criado com sucesso
+- Programa criado com sucesso
   
 
 ## 🕷️ Bugs Reported
