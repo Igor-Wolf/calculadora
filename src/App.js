@@ -105,7 +105,7 @@ const App = () => {
 
   const handleEquals = () => {
 
-    if (!firstNumber === '0' && operation !== '' && currentNumber !== '0') {
+    if (!firstNumber == '0' && operation !== '' && currentNumber !== '0') {
 
       switch (operation) {
 
