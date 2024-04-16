@@ -27,7 +27,7 @@ const App = () => {
 
   const handleSumNumbers = () => {
 
-    if (firstNumber == '0') {
+    if (firstNumber === '0') {
 
       setFirstNumber(String(currentNumber));
       setCurrentNumber('0')
@@ -47,7 +47,7 @@ const App = () => {
 
   const handleSubNumbers = () => {
 
-    if (firstNumber == '0') {
+    if (firstNumber === '0') {
 
       setFirstNumber(String(currentNumber));
       setCurrentNumber('0')
@@ -67,7 +67,7 @@ const App = () => {
 
   const handleMultNumbers = () => {
 
-    if (firstNumber == '0') {
+    if (firstNumber === '0') {
 
       setFirstNumber(String(currentNumber));
       setCurrentNumber('0')
@@ -85,7 +85,7 @@ const App = () => {
   }
   const handleDivNumbers = () => {
 
-    if (firstNumber == '0') {
+    if (firstNumber === '0') {
 
       setFirstNumber(String(currentNumber));
       setCurrentNumber('0')
@@ -105,7 +105,7 @@ const App = () => {
 
   const handleEquals = () => {
 
-    if (!firstNumber == '0' && operation !== '' && currentNumber !== '0') {
+    if (!firstNumber === '0' && operation !== '' && currentNumber !== '0') {
 
       switch (operation) {
 
